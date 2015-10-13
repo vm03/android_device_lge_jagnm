@@ -21,5 +21,8 @@
 BOARD_CUSTOM_BOOTIMG_MK := device/lge/jagnm/mkbootimg.mk
 TARGET_KERNEL_CONFIG := jagnm_global_com_defconfig
 
+# Nfc
+BOARD_NFC_CHIPSET := pn547
+
 # inherit from the proprietary version
 -include vendor/lge/jagnm/BoardConfigVendor.mk

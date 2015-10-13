@@ -21,4 +21,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=lge/jagnm_global_com/jagnm:5.1.1/LMY48M/2167285:user/release-keys \
     PRIVATE_BUILD_DESC="jagnm_global_com-user 5.0.1 5.1.1 LMY48M 2167285 release-keys"
 
+
+# NFC packages
+PRODUCT_PACKAGES += \
+    NfcNci \
+    Tag \
+    nfc_nci.pn54x.default \
+    com.android.nfc_extras
+
 $(call inherit-product, vendor/lge/jagnm/jagnm-vendor.mk)
