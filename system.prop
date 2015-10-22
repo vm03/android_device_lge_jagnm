@@ -141,4 +141,3 @@ persist.camera.num_cameras=2
 cm.updater.uri=http://vasy.ru/CyanogenModOTA/api
 ro.telephony.ril_class=LgeRIL
 persist.sys.usb.config=mtp,adb
-qemu.hw.mainkeys=0
